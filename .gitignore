@@ -1,6 +1,10 @@
 # built application files
 *.apk
 *.ap_
+*.o
+*.so
+*.a
+wiidroid
 
 # files for the dex VM
 *.dex
