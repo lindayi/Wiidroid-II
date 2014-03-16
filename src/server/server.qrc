@@ -1,0 +1,11 @@
+<RCC>
+<qresource>
+    <file>res/ico/main.ico</file>
+    <file>res/images/start.png</file>
+    <file>res/images/stop.png</file>
+    <file>res/images/exit.png</file>
+    <file>res/images/setting.png</file>
+    <file>res/images/about.png</file>
+</qresource>
+</RCC>
+
