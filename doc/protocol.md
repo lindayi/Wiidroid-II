@@ -48,7 +48,7 @@
 - 陀螺仪数据
 ```
 <?xml version="1.0" encoding="utf-8" ?>
-    <wiidroid type="12">           // 消息类型 11
+    <wiidroid type="12">           // 消息类型 12
         <coord-x>x</coord-x>       // x, y, z 三轴数据
         <coord-y>y</coord-y>
         <coord-z>z</coord-z>
