@@ -36,8 +36,8 @@ int main(int argc, char *argv[])
 
 	MainWindow *mainwindow = new MainWindow();
 
-//	mainwindow->move((QApplication::desktop()->width() - mainwindow->width()) >> 1,
-//				(QApplication::desktop()->height() - mainwindow->height() - 40) >> 1);
+    mainwindow->move((QApplication::desktop()->width() - mainwindow->width()) >> 1,
+                (QApplication::desktop()->height() - mainwindow->height() - 40) >> 1);
 
 	mainwindow->show();
 
