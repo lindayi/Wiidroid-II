@@ -22,8 +22,11 @@ INCLUDEPATH += .
 #DEFINES+= QT_NO_DEBUG_OUTPUT
 
 # Input
-HEADERS += src/MainWindow.h
-SOURCES += src/Main.cpp src/MainWindow.cpp
+HEADERS += src/MainWindow.h \
+    		src/ProtocolXml.h \
+    		src/ProtocolType.h
+SOURCES += src/Main.cpp src/MainWindow.cpp \
+    		src/ProtocolXml.cpp
 
 RESOURCES += server.qrc
 RC_FILE = logo.rc

@@ -4,7 +4,9 @@
 *.o
 *.so
 *.a
+*.user
 wiidroid
+Debug
 
 # files for the dex VM
 *.dex
