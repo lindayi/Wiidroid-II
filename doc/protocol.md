@@ -19,7 +19,6 @@
         <ip>xxx.xxx.xxx.xxx</ip>    // 服务器端IP
         <port>x</port>              // 服务器端TCP端口
     </wiidroid>
-</xml>
 ```
 
 ### 二 服务端接收的客户端控制或传感器信息；
@@ -31,7 +30,6 @@
         <key>x</key>                // 键盘按下的键的编码
         <status>0</status>          // 状态 按下为 1，松开为 0
     </wiidroid>
-</xml>
 ```
 
 - 加速度传感器数据
@@ -42,7 +40,6 @@
         <coord-y>y</coord-y>
         <coord-z>z</coord-z>
      </wiidroid>
-</xml>
 ```
 
 - 陀螺仪数据
@@ -53,5 +50,4 @@
         <coord-y>y</coord-y>
         <coord-z>z</coord-z>
     </wiidroid>
-</xml>
 ```
