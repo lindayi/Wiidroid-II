@@ -88,6 +88,7 @@ private:
     QAction *exitAction; 		// 退出
     QAction *trayExitAction;    // 托盘退出
 
+    QLabel *labelImages;         // 主窗口图片
     QLabel *statusLabel; 		// 状态栏
 
     bool isServerStart; 		// 服务器是否启动
