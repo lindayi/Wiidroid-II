@@ -58,7 +58,10 @@ void MainWindow::closeEvent(QCloseEvent *event)
 
 void MainWindow::createMainWeiget()
 {
-    resize(400, 300);
+    labelImages = new QLabel(this);
+    labelImages->setPixmap(QPixmap(":/res/images/logo.png"));
+    setCentralWidget(labelImages);
+
     isServerStart = false;
     isTrayExit = false;
     setWindowIcon(QIcon(":/res/ico/main.ico"));
@@ -206,7 +209,7 @@ void MainWindow::about()
 
 void MainWindow::trayExit()
 {
-        isTrayExit = true;
+    isTrayExit = true;
         this->close();
 }
 
